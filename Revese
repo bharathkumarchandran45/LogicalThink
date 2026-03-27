@@ -1,0 +1,21 @@
+package logic;
+
+import java.util.*;
+public class RevNum {
+    static void main(String[] args) {
+
+        Scanner ab = new Scanner (System.in);
+
+        System.out.print("Enter Number To Reverse : ");
+        int num = ab.nextInt();
+
+        int rev = 0;
+
+        while (num != 0){
+            int rem = num % 10;
+            rev = rev * 10 +rem;
+            num /= 10;
+        }
+        System.out.print("The Reversed Number is "+rev);
+    }
+}
