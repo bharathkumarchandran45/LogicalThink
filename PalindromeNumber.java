@@ -1,4 +1,3 @@
-package logic;
 
 import java.util.*;
 public class PalindromeNumber {
@@ -14,7 +13,7 @@ public class PalindromeNumber {
         if (reverse == Orig)
             System.out.println("Palindrome");
         else
-            System.out.println("Not Palindrome(");
+            System.out.println("Not Palindrome");
     }
     static int Palind (int num){
 
