@@ -1,7 +1,7 @@
 package logic;
 
 import java.util.*;
-public class ArrayDup {
+public class ArrayDuplicate {
     public static void main(String[] args) {
 
         Scanner ab = new Scanner(System.in);
