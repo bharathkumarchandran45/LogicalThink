@@ -1,5 +1,3 @@
-package logic;
-
 import java.util.*;
 public class ArrayDuplicate {
     public static void main(String[] args) {
@@ -38,6 +36,7 @@ public class ArrayDuplicate {
             arr[index] = arr[arr.length - 1];
             for (int i = 0; i <= index; i++)
                 System.out.print(arr[i] + " ");
+            System.out.println("Hello World");
         }
     }
 }
