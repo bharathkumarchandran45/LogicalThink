@@ -1,7 +1,6 @@
-package logic;
-
 import java.util.*;
-public class MoveZeros {
+
+public class MoveZreotoEnd{
     public static void main(String[] args) {
 
         Scanner ab = new Scanner(System.in);
